@@ -126,7 +126,7 @@ void loop() {
     delay(10);
   }
   int adc_turbidez = sumaTurbidez / 20;
-  float porcentaje_turbidez = adc_turbidez * 100.0 / 989.0;
+  float porcentaje_turbidez = adc_turbidez * 100.0 / 1017;
   float ntu = estimarNTU(porcentaje_turbidez);
 
   //--------------------------------------------------
